@@ -52,7 +52,7 @@
 	Object Class -> the super class of every class in Java
 		equals() and hashCode() 
 
-	## Java Strings
+## Java Strings
  	   		String constant pool , why strings are final
 		toString() method ?
 		Java Strings
@@ -73,4 +73,187 @@
 		Where does Java's String constant pool live, the heap or the stack?
 			https://stackoverflow.com/questions/4918399/where-does-javas-string-constant-pool-live-the-heap-or-the-stack
 
+## Multithreading and Synchronization
 
+	
+		Thread
+			Locks
+		Thread Pool
+			Executor
+			Callable
+			Future
+			Difference between Executor, ExecutorService and Executers class in Java
+				Read more: https://javarevisited.blogspot.com/2017/02/difference-between-executor-executorservice-and-executors-in-java.html#ixzz7tnRaZlC1
+		Synchronization	
+
+		What is memory leak
+		how GC works
+
+  ## Exception Handling
+
+  ### Collections
+
+  		HashMap vs HashTable vs Concurrent HashMap
+		
+		Difference between ConcurrentHashMap, Hashtable and Synchronized Map in Java
+			Read more: https://javarevisited.blogspot.com/2011/04/difference-between-concurrenthashmap.html#ixzz64t0kSwqV
+
+			HashTable is legacy code and do not use it
+
+	Comparable / Comparator -> How they works
+
+### Java 8
+
+		1. Lambda functions
+		2. Functional Interface
+			The major benefit of java 8 functional interfaces is that we can use lambda expressions to instantiate them and avoid using bulky anonymous class implementation.
+
+		Java Stream api
+		(argunement) -> expression
+		Runnable r1 = () -> System.out.println("mu runnable");
+### MISC 
+
+		Servlet
+	Servlet Container
+
+	Java memeory allocation
+		https://www.guru99.com/java-stack-heap.html
+		https://www.baeldung.com/java-stack-heap
+		https://dzone.com/articles/stack-vs-heap-understanding-java-memory-allocation
+	
+	Interface vs Abstract class
+		Can we fields and methods
+
+## Advance Java Concepts  
+
+	1. Java Garbage Collection ?
+	2. Creating a memory leak with Java
+	3. What are Initialization Blocks? Static Initializer vs Instance Initializer
+	4. Questions on Collection FrameWok ? Read All from Java Docs 
+		--> Which collections are thread Safe,  will they maintain order, inital size. How to make collection threadSafe
+	5. How hashmap works? hashset, its internal working and its complexity ? Something about RedBlack Tree
+	6. What is initial capacity of Java Collection? Default size, size after resizing, how its done, underlying algo and ds of collection
+	7. What is load factor?
+	8. Explain about streams with an example? (Read it again)
+	9. Generics ?
+	10. Exception Handling ? try , catch , finally
+	11. Does finally always execute in Java?
+		Yes, finally will be called. The only times finally won't be called are:
+			If you call System.exit()
+			If the JVM crashes first
+			If there is an infinite loop in the try block
+			If the power turns off
+	12. Explain the hierarchy of Exception related classes in Java?	
+	13. Files in java
+		FileReader vs FileWriter
+		BufferedWriter and BufferedReader classes in Java
+		PrintWriter
+	14. Serialization
+	15. Java Multithreading
+	16. Monitors
+		http://www.programcreek.com/2011/12/monitors-java-synchronization-mechanism/
+	17. Write java code that causes deadlock ? (Refer JavaTpoint) 			
+	18. What is the difference between synchronized and concurrent collections in Java?
+		http://javarevisited.blogspot.in/2016/05/what-is-difference-between-synchronized.html
+	19. Difference between Runnable and Thread in Java
+		https://javarevisited.blogspot.com/2012/01/difference-thread-vs-runnable-interface.html
+	20. Difference between Abstract class vs Interface in Java
+		Read more: http://javarevisited.blogspot.com/2013/05/difference-between-abstract-class-vs-interface-java-when-prefer-over-design-oops.html#ixzz4o96GFcEF
+	21. How clone works in Java ?
+	21. Difference between Singleton Pattern vs Static Class in Java
+	    Read more: http://javarevisited.blogspot.com/2013/03/difference-between-singleton-pattern-vs-static-class-java.html#ixzz4o96OTGuT	
+
+## Java need to Know stuffs
+
+	1. Java Collections(Official Java Docs)
+		https://docs.oracle.com/javase/tutorial/collections/index.html
+	
+	2. How hashmap works in java
+	 	http://howtodoinjava.com/core-java/collections/how-hashmap-works-in-java/
+	
+		http://javarevisited.blogspot.in/2011/02/how-hashmap-works-in-java.html
+	
+		Load Factor
+		https://www.quora.com/Whats-the-purpose-of-load-factor-in-hash-tables
+	
+	3. Working with hashCode and equals methods in java
+		http://howtodoinjava.com/core-java/basics/working-with-hashcode-and-equals-methods-in-java/
+	
+	4 . Performance Comparison of Different Ways to Iterate over HashMap
+		http://howtodoinjava.com/core-java/related-concepts/performance-comparison-of-different-ways-to-iterate-over-hashmap/
+	
+	5 . A Beautiful Race Condition (Regarding hashmap resizing problem)
+		http://mailinator.blogspot.in/2009/06/beautiful-race-condition.html
+	
+	6. JVM Architecture
+	
+		https://dzone.com/articles/jvm-architecture-explained
+	
+	7. Java Memory Managemnet Model
+	
+		http://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java
+	
+		http://www.journaldev.com/4098/java-heap-space-vs-stack-memory
+	
+	For Garbage Collection
+		http://javarevisited.blogspot.in/2011/04/garbage-collection-in-java.html#ixzz3PdfMHrCs
+	
+	6 . How System.out.println() works ? 
+	
+	7. Is java compiled or interpreted ?
+	
+	8. Why multiple inheritance is not supported in java?(Source javaTpoint)
+	
+		To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
+		Consider a scenario where A, B and C are three classes. The C class inherits A and B classes. If A and B classes have same method and you call it from child class object, there will be ambiguity to call method of A or B class.
+		Since compile time errors are better than runtime errors, java renders compile time error if you inherit 2 classes. So whether you have same method or different, there will be compile time error now.
+	
+	9. What is goto . Is there goto in java ?
+	
+	10. What is final in Java? Final variable , Method and Class Example ? why would someone make  a class final ?
+		Read more: http://javarevisited.blogspot.com/2011/12/final-variable-method-class-java.html#ixzz4njCZt0EN
+	
+	11. Why String is Immutable or Final in Java
+		Read more: http://javarevisited.blogspot.com/2010/10/why-string-is-immutable-or-final-in-java.html#ixzz4njFpcLgs
+	
+	12. Java String Interview Questions and Answers
+		http://javarevisited.blogspot.com/2012/10/10-java-string-interview-question-answers-top.html
+	
+	13. What is Static Variable Class method and keyword in Java - Example Tutorial
+		Read more: http://javarevisited.blogspot.com/2011/11/static-keyword-method-variable-java.html#ixzz4njGT9Ixr
+	
+	14. 10 Singleton Pattern Interview Questions in Java - Answered
+		Read more: http://javarevisited.blogspot.com/2011/03/10-interview-questions-on-singleton.html#ixzz4njKQ6Zdy
+	
+	15. Top 10 Java String interview Question answers - Advanced
+		Read more: http://javarevisited.blogspot.com/2012/10/10-java-string-interview-question-answers-top.html#ixzz4njKXEIc6			
+	
+	16. How SubString method works in Java - Memory Leak Fixed in JDK 1.7
+		Read more: http://javarevisited.blogspot.com/2011/10/how-substring-in-java-works.html#ixzz4njKeeriv
+	
+	17. When a class is loaded and initialized in JVM - Java
+		Read more: http://javarevisited.blogspot.com/2012/07/when-class-loading-initialization-java-example.html#ixzz4njKjM5Nk
+	
+	18. How StringBuilder works internally? (asked to freeze)
+		https://stackoverflow.com/questions/8011338/how-is-stringbuffer-implementing-append-function-without-creating-two-objects
+		http://vixmemon.blogspot.in/2010/04/how-stringbuilder-works-internally.html	
+	
+	20. 10 points about Java Heap Space or Java Heap Memory
+		Read more: http://javarevisited.blogspot.com/2011/05/java-heap-space-memory-size-jvm.html#ixzz4njKK3JNJ
+	
+	21. Double Checked Locking on Singleton Class in Java
+		Read more: http://javarevisited.blogspot.com/2014/05/double-checked-locking-on-singleton-in-java.html#ixzz4ogP6lIqJ	
+	
+	22. How Volatile in Java works? Example of volatile keyword in Java
+		Read more: http://javarevisited.blogspot.com/2011/06/volatile-keyword-java-example-tutorial.html#ixzz4ogRfhpyj	
+	
+	23. What is Factory method Design Pattern in Java with Example - Tutorial
+		Read more: http://javarevisited.blogspot.com/2011/12/factory-design-pattern-java-example.html#ixzz4ogUZsmPj	
+	
+	24. Observer Design Pattern
+		https://dzone.com/articles/design-patterns-uncovered	
+	
+	    https://techienotes.info/2015/09/16/observer-pattern-explained-with-java-example/
+	
+	24. In Java threading, what is the difference between "implements Runnable" and "extends Thread"?
+		https://www.quora.com/In-Java-threading-what-is-the-difference-between-implements-Runnable-and-extends-Thread
