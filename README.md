@@ -52,6 +52,25 @@
 	Object Class -> the super class of every class in Java
 		equals() and hashCode() 
 
+	## Java Strings
+ 	   		String constant pool , why strings are final
+		toString() method ?
+		Java Strings
+		StringBuffer??Mutable vs Immutable!? String vs StringBuffer? Implementation , of append method , see how its implemeted in java
+				// This shows how StringBUilder Works in java
+			// StringBuilder Vs StringBuffers (They are use to create mutable string.)
 
+			/*
+			StringBuffer is the thread safe utility class to perform several operations on Strings. 
+			It contains append() and insert() methods that are widely used to perform operation 
+			on Strings in a multi-thread environment. Most of its functions are synchronized for thread safety.
+
+			Since most of the String operations, for example concatenation happens in a single thread environment, 
+			Java 1.5 introduced another utility class StringBuilder to perform similar operations but doesn’t provide 
+			thread safety. All the methods are unsynchronized
+		String Immutability
+	   		http://mindprod.com/jgloss/immutable.html
+		Where does Java's String constant pool live, the heap or the stack?
+			https://stackoverflow.com/questions/4918399/where-does-javas-string-constant-pool-live-the-heap-or-the-stack
 
 
