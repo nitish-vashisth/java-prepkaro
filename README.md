@@ -11,7 +11,7 @@
 #### what is goto? In C or Java? Why its not preferred ?
 #### Platform Independence
 #### What are the important differences between C++ and Java?
-### JVM Architercture
+#### JVM Architercture
 
 
 
