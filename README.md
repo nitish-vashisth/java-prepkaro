@@ -291,3 +291,23 @@
 		how null is implemented in java
 		SQL injection
   
+## References
+
+	1. Tutorial Point / JavaTpoint
+	2. Document - In28minutesCourses
+	3. Below questions 
+		--> Basic Java Concepts
+		--> Advance Java Concepts
+		--> Java need to Know stuffs
+		--> Miscellaneous
+	4. Features of Java 8 -> must read for experience level interview
+		Links 
+			--> https://howtodoinjava.com/java-8-tutorial/
+			--> https://www.journaldev.com/2389/java-8-features-with-examples
+			--> https://www.geeksforgeeks.org/functional-interfaces-java/
+			--> https://www.geeksforgeeks.org/stream-in-java/
+			--> https://dzone.com/articles/how-to-use-map-filter-collect-of-stream-in-java-8
+	
+	Books :-
+		Head First Java
+		Head First Design pattern
