@@ -257,3 +257,37 @@
 	
 	24. In Java threading, what is the difference between "implements Runnable" and "extends Thread"?
 		https://www.quora.com/In-Java-threading-what-is-the-difference-between-implements-Runnable-and-extends-Thread
+
+ ## Miscellaneous
+
+	 OpenJDK vs Oracle JDK
+		
+		Practical Data Structure, Algorithm, and Design Interview Questions from Investment Banks - Java
+			Read more: http://javarevisited.blogspot.com/2017/03/2-practical-data-structure-algorithm-interview-questions-java.html#ixzz4o2LNvJeI	
+	
+		What is purpose of different HTTP Request Types in RESTful Web Service?
+			Read more: http://javarevisited.blogspot.com/search/label/interview%20questions?updated-max=2017-03-20T05:34:00-07:00&max-results=6#ixzz4o2LdkFan
+	
+		Get / Post / Put / Delete (when to use which)	
+	
+		Aggregation implies a relationship where the child can exist independently of the parent. Example: Class (parent) and Student (child). Delete the 	Class and the Students still exist.
+	
+		Composition implies a relationship where the child cannot exist independent of the parent. Example: House (parent) and Room (child). Rooms don't 	exist separate to a House.
+	
+			The above two are forms of containment (hence the parent-child relationships).
+	
+		Dependency is a weaker form of relationship and in code terms indicates that a class uses another by parameter or return type.
+	
+		Dependency is a form of association.
+	
+	
+		http://www.geeksforgeeks.org/serialization-in-java/
+		http://www.geeksforgeeks.org/producer-consumer-solution-using-threads-java/
+		http://www.geeksforgeeks.org/multithreading-in-java/
+		http://www.geeksforgeeks.org/synchronized-in-java/
+		http://www.geeksforgeeks.org/inter-thread-communication-java/
+		http://www.javainterview.in/p/core-java-interview-question-are.html
+	
+		how null is implemented in java
+		SQL injection
+  
