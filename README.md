@@ -93,6 +93,11 @@
 
   ### Collections
 
+|Operation| List        | LinkedList  | ArrayList | Stack | Queue | HashSet | HashMap  |
+|---------| ----------- | ------------|- ----------|-------|-------|---------|---------|
+| Add     |             |             | 	   | 	   | 	   |         |         |
+
+
   		HashMap vs HashTable vs Concurrent HashMap
 		
 		Difference between ConcurrentHashMap, Hashtable and Synchronized Map in Java
