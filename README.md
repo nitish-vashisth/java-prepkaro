@@ -111,7 +111,18 @@
 
 Release Date : Java 8 was released on 18th March 2014
 
-[Quick Overview](https://www.digitalocean.com/community/tutorials/java-8-features-with-examples) 
+### Some of the important Java 8 features are
+
+- forEach() method in Iterable interface
+- default and static methods in Interfaces
+- Functional Interfaces and Lambda Expressions
+- Java Stream API for Bulk Data Operations on Collections
+- Java Time API
+- Collection API improvements
+- Concurrency API improvements
+- Java IO improvements
+
+[Java 8 Features with Examples](https://www.digitalocean.com/community/tutorials/java-8-features-with-examples) 
 
    ### default and static methods in Interfaces 
 
