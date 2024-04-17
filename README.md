@@ -115,7 +115,7 @@ Release Date : Java 8 was released on 18th March 2014
 
    ### default and static methods in Interfaces 
 
- 	[Java 8 Interface Changes - static method, default method](https://www.digitalocean.com/community/tutorials/java-8-interface-changes-static-method-default-method)
+   - [Java 8 Interface Changes - static method, default method](https://www.digitalocean.com/community/tutorials/java-8-interface-changes-static-method-default-method)
 
    ### Functional Interface
 
