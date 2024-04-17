@@ -107,7 +107,29 @@
 
 	Comparable / Comparator -> How they works
 
-### Java 8
+## Java 8
+
+Release Date : Java 8 was released on 18th March 2014
+
+[Quick Overview](https://www.digitalocean.com/community/tutorials/java-8-features-with-examples) 
+
+   ### default and static methods in Interfaces 
+
+ 	[Java 8 Interface Changes - static method, default method](https://www.digitalocean.com/community/tutorials/java-8-interface-changes-static-method-default-method)
+
+   ### Functional Interface
+
+   Before moving ahead let see what is Functional Programming 
+
+   ##### Functional Programming
+   [What is functional programming?](https://www.educative.io/answers/what-is-functional-programming)
+
+   ##### Lambda Expression
+   [Java 8 Lambda Basics - Java Brains](https://www.youtube.com/watch?v=gpIUfj3KaOc&list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3)
+   
+   [Java 8 Functional Interfaces](https://www.digitalocean.com/community/tutorials/java-8-features-with-examples)
+
+   
 
 		1. Lambda functions
 		2. Functional Interface
