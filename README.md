@@ -8,6 +8,8 @@
 # Collection Framework
 # Exception Handling
 # Multithreading and concurrency
+# Java 8 - 17 Features
+# Functional Programming in Java
 
 [Java Brains](https://www.javabrains.io/pages/complete-java-backend-learning-path)
 
