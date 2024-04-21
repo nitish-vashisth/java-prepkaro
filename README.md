@@ -3,6 +3,13 @@
 - **Introduction**
   What is Java and histrory ?
 
+# Java Essentials
+# String
+# Collection Framework
+# Exception Handling
+# Multithreading and concurrency
+
+[Java Brains](https://www.javabrains.io/pages/complete-java-backend-learning-path)
 
 
 ## Introduction
