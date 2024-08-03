@@ -46,7 +46,9 @@
 
 # Java 8
 
-# Streams
+# Streams in Java
+
+# Java 8 Lambda 
 
 # Java 8 - 21 Features
 
