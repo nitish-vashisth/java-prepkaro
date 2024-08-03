@@ -54,7 +54,7 @@
         [Article 2](http://javarevisited.blogspot.in/2011/02/how-hashmap-works-in-java.html)
         [Article 3](https://www.quora.com/Whats-the-purpose-of-load-factor-in-hash-tables)
   - Is HashMap threadsafe ? No  
-  - HashCode and equals methods in java
+  - HashCode and equals methods in java ?
     	[Article](http://howtodoinjava.com/core-java/basics/working-with-hashcode-and-equals-methods-in-java/)
     
 
