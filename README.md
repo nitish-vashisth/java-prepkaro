@@ -1,15 +1,55 @@
 # java-champion
 
-- **Introduction**
-  What is Java and histrory ?
+ ## Introduction
+  - What is Java and histrory ?
+  - Java Features
+  - How a program run in Java ?
+  - Why is Java platform independent ?
+  - JVM, JRE, JDK
+    
+## OOPS concepts
+   - Object
+   - Class
+   - Abstarction
+   - Encapsulation, Inheritance, Polymorphism
+     
+## Some othe Concepts
+  - Composition
+  - Cohesion
+  - Coupling
 
-# Java Essentials
+## Core Java Concepts
+  - Abstarct Class vs Interface
+  - Changes in Interface after Java 8 ?
+  - Overloading vs Overriding
+  - Complie time vs RunTime polymorphism
+  - Covariant Return Type
+  - Final Keyword
+  - Static Keyword
+
+## Encapsulation
+  - Package
+  - Access Modifiers - Public , Private, Default, Protected
+  - Encapsulation
+
+## Misc Concepts
+
 # String
+
 # Collection Framework
+
 # Exception Handling
+
 # Multithreading and concurrency
+
 # Java 8 - 17 Features
+
 # Functional Programming in Java
+
+# Interview Questions
+	1. How hashmap works in java ?
+	
+ 	2. Working with hashCode and equals methods in java 
 
 [Java Brains](https://www.javabrains.io/pages/complete-java-backend-learning-path)
 
