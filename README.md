@@ -44,6 +44,10 @@
 
 # Multithreading and concurrency
 
+# Java 8
+
+# Streams
+
 # Java 8 - 21 Features
 
 # Functional Programming in Java
