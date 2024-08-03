@@ -1,4 +1,5 @@
 # java-champion
+  - Java latest version - 21
 
  ## Introduction
   - What is Java and histrory ?
@@ -6,6 +7,7 @@
   - How a program run in Java ?
   - Why is Java platform independent ?
   - JVM, JRE, JDK
+  - JVM Architecture
     
 ## OOPS concepts
    - Object
@@ -42,25 +44,31 @@
 
 # Multithreading and concurrency
 
-# Java 8 - 17 Features
+# Java 8 - 21 Features
 
 # Functional Programming in Java
 
 # Interview Questions
-	1. How hashmap works in java ?
-	
- 	2. Working with hashCode and equals methods in java 
+  - How hashmap works in java ? 
+    	[Article 1](http://howtodoinjava.com/core-java/collections/how-hashmap-works-in-java/) 
+        [Article 2](http://javarevisited.blogspot.in/2011/02/how-hashmap-works-in-java.html)
+        [Article 3](https://www.quora.com/Whats-the-purpose-of-load-factor-in-hash-tables)
+  - Is HashMap threadsafe ? No  
+  - HashCode and equals methods in java
+    	[Article](http://howtodoinjava.com/core-java/basics/working-with-hashcode-and-equals-methods-in-java/)
+    
+
+
+
+
 
 [Java Brains](https://www.javabrains.io/pages/complete-java-backend-learning-path)
 
-
-## Introduction
 #### Difference btn C,Java and C++?
-#### Latest Java Verison and comparison of featutes from java 8 - 21 
 #### what is goto? In C or Java? Why its not preferred ?
 #### Platform Independence
 #### What are the important differences between C++ and Java?
-#### JVM Architercture
+
 
 ## Java OOPS concept
 #### Object Oriendted Language( https://docs.oracle.com/javase/tutorial/java/concepts/interface.html )
