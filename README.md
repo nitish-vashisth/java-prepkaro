@@ -400,16 +400,16 @@ Release Date : Java 8 was released on 18th March 2014
 
 
  ###  Ascii value range
-    - Total - 256
-    - 0-9  48-57
-    - A-Z 65-90
-    - a-z 97-122
+    Total - 256
+    -> 0-9  48-57
+    -> A-Z 65-90
+    -> a-z 97-122
 
    ### Maths and General
    
    | Syntax                          |   Example                                     |
    |-----------------------------    |------------------------------------           |
-   | Min and Max integer value       | Integer.MIN_VALUE  , Intgere.MAX_VALUE        |
+   | Min and Max integer value       | Integer.MIN_VALUE  , Integer.MAX_VALUE        |
    | max, min , abs                  |  Math.max(a,b), Math.min(a,b),  Math.abs(num) |
    | Counts bits in an integer       |   Integer.bitCount(); |
 
