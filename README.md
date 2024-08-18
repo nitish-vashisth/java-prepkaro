@@ -397,16 +397,6 @@ Release Date : Java 8 was released on 18th March 2014
   		Transient keyWord in java
 
 ## Handy Java Syntax
-
-		int[] num = new int[10];
-		
-		Arrays.sort(num);
-		Arrays.sort(si, ei, num);
-		
-		HashSet<Character> hs = new HashSet<Character>();
-		
-		
-		
 		
 		1. Taking Input using BufferedReader
 		
@@ -619,27 +609,6 @@ Release Date : Java 8 was released on 18th March 2014
 		} 
 		
 		
-		
-		
-		*********************************
-		*                               *
-		*  4.  Custom Priority Queue    *
-		*                               *
-		*********************************
-		
-		    PriorityQueue<Node> p  = new PriorityQueue<Node>(new Comparator<Node>(){
-		                        
-		          public int compare(Node n1,Node n2){
-		                return n2.count-n1.count;
-		                  }
-		          });
-		
-		    PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->a-b)
-		
-		    By Default priority queue is min heap
-		
-		    ;
-		
 		*********************************
 		*                               *
 		*     Other handy Syntax        *
@@ -674,15 +643,7 @@ Release Date : Java 8 was released on 18th March 2014
 		  int bitcount = Integer.bitCount(num);
 		
 		2. Using Comparable(compareTo) and Comparator(compare)
-		
-		Ascii value range
-		
-		  
-		Actual value Ascii value
-		0-9  48-57
-		A-Z 65-90
-		a-z 97-122
-		
+			
 		
 		4. Getting ascii value
 		  
@@ -697,16 +658,6 @@ Release Date : Java 8 was released on 18th March 2014
 		
 		      int num = 67;
 		  	  char ascii =(char)num; 
-		
-		6. Convert String of number to integer
-		
-		    String s = "1234";
-		    int ee = Integer.parseInt(s);
-		    System.out.println(ee);
-		    
-		7. Integer.toBinaryString(int n)
-		  
-		    Returns string of binary representation of number n
 		
 		8.String split : Below is example based on white spaces
 		
@@ -731,82 +682,8 @@ Release Date : Java 8 was released on 18th March 2014
 		Arrays.sort(al);              // in java.util package
 		Collections.sort();     
 		
-		
-		
-		Interview questions:
-		
-		Q How java Handles divide by zero :
-		
-		
-		Collections.sort(al.subList(i,a.size()));
-		
-		  Arrays.sort(bArr, 1, 4);   4 exclusive
-		
-		
-		14 Integer.MIN_VALUE
-		15 Intgere.MAX_VALUE
-		16 Math.max(a,b)
-		17 Math.min(a,b)
-		18 Math.abs(num)
-		19 String.valueOf(num)
-		20 s.contains(s2)
-		21 s.indexOf(s2)
-		22 Character.toString(char)
-		
-		
-		*** Lambda Expressions
-		
-		al.sort((Student s1,Student s2)->s1.age-s2.age);
-		al.sort((Student s1,Student s2)->s1.name.compareTo(s2));
-		
-		al.forEach( stud -> System.out.println(stud.name + " " + stud.age) );
-		
-		Map
-		=====
-		
-		hm.forEach((k,v)->System.out.println(k,v));
-		hm.forEach((k,v)->{Staements});
-		
-		PriorityQueue<> pq = new PriorityQueue((x,y)->y-x);
-		
-		
-		Collections.reverse()
-		
-		
-		
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		br.readLine()
-		Integer.parseInt()
-		line.split(" ");
-		line.split("\\.");
-		
-		StringBuilder vs StringBuffer
-		StringBuilder bru  = new StringBuilder
-		bru.reverse()
-		bru.append("test \n");
-		bru.toString();
-		s.toCharArray();
-		s.length
-		Integer.bitCount();
-		
-		
-		Arrays.sort(al);
-		Collection.sort();
-		Collection.reverse
-		
-		default is min heap
-		PriorityQueue<Node> p = new PriorityQueue<Node>((x,y)->y-x);
-		
-		Integer.MIN_VALUE
-		Integer.MAX_VALUE
-		Math.max()
-		Math.min()
-		Math.abs()
-		String.valueOf(num)
-		s1.contains(s2)
-		s1.indexOf(s2)
-		Charater.toString(char)
-  
+						
+			  
 ## References
 
 	1. Tutorial Point / JavaTpoint
