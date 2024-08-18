@@ -37,6 +37,13 @@
 ## Misc Concepts
 
 # String
+- Java Strings are immutable
+- Java String class is Final. So, it cannot be over ridden
+- Different ways to create String , either by String literal or by new keyword
+- String are stored in StringPool which is part of heap.
+- When created using new() , two Strings are created one in pool one in heap. String created will have refernce of string object in heap
+- String vs StringBuilder vs StringBuffer
+-  
 
 # Collection Framework
 
