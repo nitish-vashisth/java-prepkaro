@@ -61,7 +61,18 @@
 
   - String Immutability - [Article 1](https://www.mindprod.com/jgloss/immutable.html)
   - Where does Java's String constant pool live, the heap or the stack? [StackOverflow](url)
-  - https://stackoverflow.com/questions/4918399/where-does-javas-string-constant-pool-live-the-heap-or-the-stack 
+  - https://stackoverflow.com/questions/4918399/where-does-javas-string-constant-pool-live-the-heap-or-the-stack
+  - Why String is Immutable or Final in Java - [Article](https://javarevisited.blogspot.com/2010/10/why-string-is-immutable-or-final-in-java.html#ixzz4njFpcLgs)
+  - Java String Interview Questions and Answers
+  - http://javarevisited.blogspot.com/2012/10/10-java-string-interview-question-answers-top.html
+  - Top 10 Java String interview Question answers - Advanced
+  - Read more: http://javarevisited.blogspot.com/2012/10/10-java-string-interview-question-answers-top.html#ixzz4njKXEIc6			
+  - How SubString method works in Java - Memory Leak Fixed in JDK 1.7
+  - Read more: http://javarevisited.blogspot.com/2011/10/how-substring-in-java-works.html#ixzz4njKeeriv
+  - How StringBuilder works internally? (asked to freeze)
+  - https://stackoverflow.com/questions/8011338/how-is-stringbuffer-implementing-append-function-without-creating-two-objects
+  - http://vixmemon.blogspot.in/2010/04/how-stringbuilder-works-internally.html	
+
 
 # Collection Framework
 
