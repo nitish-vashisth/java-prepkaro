@@ -478,6 +478,7 @@ Release Date : Java 8 was released on 18th March 2014
     - Integer.parseInt()
     - split() ex - s1.split("\\s") , s1.split("\\,")
     - StringBuilder br = new StringBuilder() // bru.append(" test \n"); bru.reverse();  bru.toString();
+    - br.length() , br.deleteCharAt(x)
     
 
    ### Array
