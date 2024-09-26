@@ -81,6 +81,13 @@
 # Multithreading and concurrency
 
 # Java 8
+## Functional Interface
+## Lambda Experession
+
+## Stream API
+- [Link1](https://www.twilio.com/en-us/blog/getting-started-with-the-java-streams-api)
+- [Reddit](https://www.reddit.com/r/learnjava/comments/f3tkwa/what_exactly_are_streams/)
+  
 
 
 
