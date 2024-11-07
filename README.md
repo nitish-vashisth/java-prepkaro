@@ -1,26 +1,127 @@
 # java-champion
+  - Java latest version - 21
 
-- **Introduction**
-  What is Java and histrory ?
+ ## Introduction
+  - What is Java and histrory ?
+  - Java Features
+  - How a program run in Java ?
+  - Why is Java platform independent ?
+  - JVM, JRE, JDK
+  - JVM Architecture
+    
+## OOPS concepts
+   - Object
+   - Class
+   - Abstarction
+   - Encapsulation, Inheritance, Polymorphism
+     
+## Some othe Concepts
+  - Composition
+  - Cohesion
+  - Coupling
 
-# Java Essentials
+## Core Java Concepts
+  - Abstarct Class vs Interface
+  - Changes in Interface after Java 8 ?
+  - Overloading vs Overriding
+  - Complie time vs RunTime polymorphism
+  - Covariant Return Type
+  - Final Keyword
+  - Static Keyword
+
+## Encapsulation
+  - Package
+  - Access Modifiers - Public , Private, Default, Protected
+  - Encapsulation
+
+## Misc Concepts
+
 # String
+- Java Strings are immutable
+- Java String class is Final. So, it cannot be over ridden
+- Different ways to create String , either by String literal or by new keyword
+- String are stored in StringPool which is part of heap.
+- When created using new() , two Strings are created one in pool one in heap. String created will have refernce of string object in heap
+- String vs StringBuilder vs StringBuffer
+
+  ## Questions
+  - String constant pool
+  - why strings are final ?
+  - toString() method ?
+  - Mutable vs Immutable!? String vs StringBuffer? Implementation , of append method , see how its implemeted in java
+  - StringBuilder Vs StringBuffers (They are use to create mutable string.)
+
+    StringBuffer is the thread safe utility class to perform several operations on Strings. 
+		It contains append() and insert() methods that are widely used to perform operation 
+		on Strings in a multi-thread environment. Most of its functions are synchronized for thread safety.
+
+		Since most of the String operations, for example concatenation happens in a single thread environment, 
+		Java 1.5 introduced another utility class StringBuilder to perform similar operations but doesn’t provide 
+		thread safety. All the methods are unsynchronized
+
+  - String Immutability - [Article 1](https://www.mindprod.com/jgloss/immutable.html)
+  - Where does Java's String constant pool live, the heap or the stack? [StackOverflow](url)
+  - https://stackoverflow.com/questions/4918399/where-does-javas-string-constant-pool-live-the-heap-or-the-stack
+  - Why String is Immutable or Final in Java - [Article](https://javarevisited.blogspot.com/2010/10/why-string-is-immutable-or-final-in-java.html#ixzz4njFpcLgs)
+  - Java String Interview Questions and Answers
+  - http://javarevisited.blogspot.com/2012/10/10-java-string-interview-question-answers-top.html
+  - Top 10 Java String interview Question answers - Advanced
+  - Read more: http://javarevisited.blogspot.com/2012/10/10-java-string-interview-question-answers-top.html#ixzz4njKXEIc6			
+  - How SubString method works in Java - Memory Leak Fixed in JDK 1.7
+  - Read more: http://javarevisited.blogspot.com/2011/10/how-substring-in-java-works.html#ixzz4njKeeriv
+  - How StringBuilder works internally? (asked to freeze)
+  - https://stackoverflow.com/questions/8011338/how-is-stringbuffer-implementing-append-function-without-creating-two-objects
+  - http://vixmemon.blogspot.in/2010/04/how-stringbuilder-works-internally.html	
+
+
 # Collection Framework
+
 # Exception Handling
+
 # Multithreading and concurrency
-# Java 8 - 17 Features
+
+# Java 8
+## Functional Interface
+## Lambda Experession
+
+## Stream API
+- [Link1](https://www.twilio.com/en-us/blog/getting-started-with-the-java-streams-api)
+- [Reddit](https://www.reddit.com/r/learnjava/comments/f3tkwa/what_exactly_are_streams/)
+  
+
+
+
+# Streams in Java
+
+# La
+
+# Java 8 Lambda 
+
+# Java 8 - 21 Features
+
 # Functional Programming in Java
+
+# Interview Questions
+  - How hashmap works in java ? 
+    	[Article 1](http://howtodoinjava.com/core-java/collections/how-hashmap-works-in-java/) 
+        [Article 2](http://javarevisited.blogspot.in/2011/02/how-hashmap-works-in-java.html)
+        [Article 3](https://www.quora.com/Whats-the-purpose-of-load-factor-in-hash-tables)
+  - Is HashMap threadsafe ? No  
+  - HashCode and equals methods in java ?
+    	[Article](http://howtodoinjava.com/core-java/basics/working-with-hashcode-and-equals-methods-in-java/)
+    
+
+
+## ========================================================================================================================
+
 
 [Java Brains](https://www.javabrains.io/pages/complete-java-backend-learning-path)
 
-
-## Introduction
 #### Difference btn C,Java and C++?
-#### Latest Java Verison and comparison of featutes from java 8 - 21 
 #### what is goto? In C or Java? Why its not preferred ?
 #### Platform Independence
 #### What are the important differences between C++ and Java?
-#### JVM Architercture
+
 
 ## Java OOPS concept
 #### Object Oriendted Language( https://docs.oracle.com/javase/tutorial/java/concepts/interface.html )
@@ -342,15 +443,121 @@ Release Date : Java 8 was released on 18th March 2014
 
 ## Handy Java Syntax
 
-		int[] num = new int[10];
+
+ ###  Ascii value range
+    Total - 256
+    -> 0-9  48-57
+    -> A-Z 65-90
+    -> a-z 97-122
+
+   ### Maths and General
+   
+   | Syntax                          |   Example                                     |
+   |-----------------------------    |------------------------------------           |
+   | Min and Max integer value       | Integer.MIN_VALUE  , Integer.MAX_VALUE        |
+   | max, min , abs                  |  Math.max(a,b), Math.min(a,b),  Math.abs(num) |
+   | Counts bits in an integer       |   Integer.bitCount(); |
+
+  
+ 
+   ### String 
+   
+   | Syntax                      |   Example                          |
+   |-----------------------------|------------------------------------|
+   | Create String I             | String name = "Nitish"             |
+   | Create String II            | String name = new String("Nitish); |
+   | String to Char Array        | char[] ch = s.toCharArray()        |
+   | Returns string of binary representation of number n       |    Integer.toBinaryString(int n)                                 |
+       
+    - String , StringBuilder, StringBuffer
+    - charAt(index)
+    - Character.toString(char)
+    - int length()
+    - substring(int startIndex) , substring(startIndex, endIndex)
+    - equals, equalsIgnoreCase(), compareTo
+    - isEmpty()
+    - replace(oldChar, new Char)
+    - toUpperCase(), toLowerCase()
+    - int indexOf(int ch) , indexOf(int ch, int fromIndex), int indexOf(String substring) , int indexOf(String substring, int fromIndex)
+    - s1.contains(s2)
+    - trim()
+    - String valueOf(int value)
+    - Integer.parseInt()
+    - split() ex - s1.split("\\s") , s1.split("\\,")
+    - StringBuilder br = new StringBuilder() // bru.append(" test \n"); bru.reverse();  bru.toString();
+    - br.length() , br.deleteCharAt(x)
+    
+
+   ### Array
+
+  | Syntax                        | Example                          					|
+  |---------------------------	  |------------------------------------					|
+  | Create array I                | int[] num = new int[5];            					|
+  | Create array II               | int[] num = {1, 2, 3, 4, 5};      					|
+  | Sort an array             	  | Arrays.sort(num);     * check how to change this default behaviour  |
+  | Sort an array based on index  | Arrays.sort(si, ei, num)   					        |
+  
+  
+
+  ### Java Collection
+  	Collection.sort();
+		Collection.reverse
+  
+  
+  ### Lambda Expressions
+ 
+     al.sort((Student s1,Student s2)->s1.age-s2.age);
+     al.sort((Student s1,Student s2)->s1.name.compareTo(s2));
+     al.forEach( stud -> System.out.println(stud.name + " " + stud.age) );
+
+  ### Heap
+
+	   default is min heap
+	   PriorityQueue<Node> p = new PriorityQueue<Node>((x,y)->y-x);
+	
+	 Map
+			=====
+			
+			hm.forEach((k,v)->System.out.println(k,v));
+			hm.forEach((k,v)->{Staements});
+			
+			PriorityQueue<> pq = new PriorityQueue((x,y)->y-x);
+			
+			
+			Collections.reverse()
+
+   		*********************************
+		*                               *
+		*  4.  Custom Priority Queue    *
+		*                               *
+		*********************************
 		
-		Arrays.sort(num);
-		Arrays.sort(si, ei, num);
+		    PriorityQueue<Node> p  = new PriorityQueue<Node>(new Comparator<Node>(){
+		                        
+		          public int compare(Node n1,Node n2){
+		                return n2.count-n1.count;
+		                  }
+		          });
 		
-		HashSet<Character> hs = new HashSet<Character>();
+		    PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->a-b)
 		
+		    By Default priority queue is min heap
 		
-		
+		    ;
+      
+ ### Other Syntax 
+	 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	 br.readLine()
+
+        	Q How java Handles divide by zero :
+
+		Collections.sort(al.subList(i,a.size()));		
+		Arrays.sort(bArr, 1, 4);   4 exclusive
+
+ 	HashSet<Character> hs = new HashSet<Character>();
+
+
+  
 		
 		1. Taking Input using BufferedReader
 		
@@ -563,27 +770,6 @@ Release Date : Java 8 was released on 18th March 2014
 		} 
 		
 		
-		
-		
-		*********************************
-		*                               *
-		*  4.  Custom Priority Queue    *
-		*                               *
-		*********************************
-		
-		    PriorityQueue<Node> p  = new PriorityQueue<Node>(new Comparator<Node>(){
-		                        
-		          public int compare(Node n1,Node n2){
-		                return n2.count-n1.count;
-		                  }
-		          });
-		
-		    PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->a-b)
-		
-		    By Default priority queue is min heap
-		
-		    ;
-		
 		*********************************
 		*                               *
 		*     Other handy Syntax        *
@@ -618,15 +804,7 @@ Release Date : Java 8 was released on 18th March 2014
 		  int bitcount = Integer.bitCount(num);
 		
 		2. Using Comparable(compareTo) and Comparator(compare)
-		
-		Ascii value range
-		
-		  
-		Actual value Ascii value
-		0-9  48-57
-		A-Z 65-90
-		a-z 97-122
-		
+			
 		
 		4. Getting ascii value
 		  
@@ -641,16 +819,6 @@ Release Date : Java 8 was released on 18th March 2014
 		
 		      int num = 67;
 		  	  char ascii =(char)num; 
-		
-		6. Convert String of number to integer
-		
-		    String s = "1234";
-		    int ee = Integer.parseInt(s);
-		    System.out.println(ee);
-		    
-		7. Integer.toBinaryString(int n)
-		  
-		    Returns string of binary representation of number n
 		
 		8.String split : Below is example based on white spaces
 		
@@ -675,82 +843,8 @@ Release Date : Java 8 was released on 18th March 2014
 		Arrays.sort(al);              // in java.util package
 		Collections.sort();     
 		
-		
-		
-		Interview questions:
-		
-		Q How java Handles divide by zero :
-		
-		
-		Collections.sort(al.subList(i,a.size()));
-		
-		  Arrays.sort(bArr, 1, 4);   4 exclusive
-		
-		
-		14 Integer.MIN_VALUE
-		15 Intgere.MAX_VALUE
-		16 Math.max(a,b)
-		17 Math.min(a,b)
-		18 Math.abs(num)
-		19 String.valueOf(num)
-		20 s.contains(s2)
-		21 s.indexOf(s2)
-		22 Character.toString(char)
-		
-		
-		*** Lambda Expressions
-		
-		al.sort((Student s1,Student s2)->s1.age-s2.age);
-		al.sort((Student s1,Student s2)->s1.name.compareTo(s2));
-		
-		al.forEach( stud -> System.out.println(stud.name + " " + stud.age) );
-		
-		Map
-		=====
-		
-		hm.forEach((k,v)->System.out.println(k,v));
-		hm.forEach((k,v)->{Staements});
-		
-		PriorityQueue<> pq = new PriorityQueue((x,y)->y-x);
-		
-		
-		Collections.reverse()
-		
-		
-		
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		br.readLine()
-		Integer.parseInt()
-		line.split(" ");
-		line.split("\\.");
-		
-		StringBuilder vs StringBuffer
-		StringBuilder bru  = new StringBuilder
-		bru.reverse()
-		bru.append("test \n");
-		bru.toString();
-		s.toCharArray();
-		s.length
-		Integer.bitCount();
-		
-		
-		Arrays.sort(al);
-		Collection.sort();
-		Collection.reverse
-		
-		default is min heap
-		PriorityQueue<Node> p = new PriorityQueue<Node>((x,y)->y-x);
-		
-		Integer.MIN_VALUE
-		Integer.MAX_VALUE
-		Math.max()
-		Math.min()
-		Math.abs()
-		String.valueOf(num)
-		s1.contains(s2)
-		s1.indexOf(s2)
-		Charater.toString(char)
-  
+						
+			  
 ## References
 
 	1. Tutorial Point / JavaTpoint
