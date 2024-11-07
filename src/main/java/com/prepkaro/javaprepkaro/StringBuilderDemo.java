@@ -41,6 +41,7 @@ public class StringBuilderDemo {
         // Reverse a string
         sbr.reverse();
         sbr.append("\n By Nitish Vashisth"); // To append next line
+        String[] arr =testToString.split("\\.");
     }
 
 }
